@@ -8,7 +8,7 @@ image: assets/images/recipes/liquid.smoked.sea.salt.rub.jpg
 description: "Elevate your meal with some fresh made Liquid Smoked Sea Salt Rub."
 featured: false
 hidden: false
-rating: 3.3
+rating: 3.5
 ---
 
 Bring the savory flavor of a smoked barbeque to your kitchen without the need for a physical smoker.
