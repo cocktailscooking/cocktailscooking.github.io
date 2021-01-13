@@ -1,0 +1,64 @@
+# Site
+name: "Cocktails and Cooking"
+title: "Cocktails and Cooking"
+description: "Recipes and reviews for all things related to Cocktails and Cooking."
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/logo.png'
+baseurl: ''
+google_analytics: 'G-55MC2Q66RL'
+disqus: 'cocktailscooking'
+mailchimp-list: ''
+include: ["_pages"]
+permalink: /:title/
+
+# Authors
+authors:
+  john:
+    name: John
+    display_name: John
+    avatar: 'assets/images/avatar.png'
+    gravatar:
+    email: headchef@cocktails.cooking
+    web: https://cocktails.cooking
+    twitter: https://twitter.com/cocktailscooking
+    description: "I like to eat, drink, and mostly be merry! I like to eat, drink, and mostly be merry! I like to eat, drink, and mostly be merry!"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+# Adsense (change to "enabled" to activate, also your client id and ad slot. Create a new ad unit from your Adsense account to get the slot.)
+adsense: "disabled"
+adsense-data-ad-client: "ca-pub-2133653178721213"
+adsense-data-ad-slot: ""
+
+# Lazy Images ("enabled" or "disabled")
+lazyimages: "disabled"
+
+exclude: [changelog.md, LICENSE.txt, README.md, Gemfile, Gemfile.lock]
