@@ -18,6 +18,10 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+{% if site.mailchimp-list %}
+<script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/94addc7fac4b8f7524a196526/08a4d550708ddbb635f55fd2c.js");</script>
+{% endif %}
+
 </head>
 
 {% if jekyll.environment == 'production' %}
