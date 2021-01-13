@@ -5,7 +5,7 @@ author: john
 categories: [ recipes, seasonings, pork ]
 tags: [ cooking, bacon, salt ]
 image: assets/images/recipes/bacon.sea.salt.rub.jpg
-description: "a dream come true"
+description: "Elevate your meal with some fresh made Bacon Sea Salt Rub."
 featured: true
 hidden: false
 rating: 4.5
