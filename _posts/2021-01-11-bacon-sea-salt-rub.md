@@ -6,7 +6,7 @@ categories: [ recipes, seasonings, pork ]
 tags: [ cooking, bacon, salt ]
 image: assets/images/recipes/bacon.sea.salt.rub.jpg
 description: "Elevate your meal with some fresh made Bacon Sea Salt Rub."
-featured: true
+featured: false
 hidden: false
 rating: 4.5
 ---
