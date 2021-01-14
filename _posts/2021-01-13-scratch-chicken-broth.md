@@ -5,13 +5,13 @@ author: john
 categories: [ recipes, broths, meats, scratch ]
 tags: [ cooking, chicken ]
 image: assets/images/recipes/scratch.chicken.broth.jpg
-description: "Transcend your meals with a home made chicken broth | Leftovers Series  "
+description: "Revision leftovers to add low-effort improvements to your meals with a home made chicken broth | Leftovers Series"
 featured: true
 hidden: false
 rating: 5
 ---
 
-The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than toss out the bones, fat, and other waste, I recommend brewing your own chicken stock.  This is perfect to put together as you prepare your primary meal.
+The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than discard the bones, fat, and other perceived waste, I recommend preparing a chicken stock from scratch.  This is perfect to put together as you prepare a different meal since you can toss all of the odd bits from those ingrediants, into your chicken broth stock pot.
 
 ## Ingredients
 
@@ -28,7 +28,7 @@ The best flavors of a chicken come from the pieces most people prefer to toss.  
 
 ## Cooking Instructions
 
-- Heat stock pot on medium heat.  Add butter and melt.  As it melts, add crushed garlic and rosemary sprigs to melting butter.  Saute until garlic has a buttery texture, maybe five minutes.  Add ginger slices about half way through sauting the garlic butter.
+- Heat stock pot on low-medium heat.  Add butter and melt.  Next, add crushed garlic and rosemary sprigs.  As the herbs begin to release their delightful aroma, add the ginger slices.  Finally, saute until garlic has cooked through and is a bit smooth, sitrring more than occasionally.  If they have a bit of caramelization, neat.
 
 - Put the leftover bones and skin from a chicken carcass into the large stock pot with garlic and rosemary butter. Add vegetables, celery, onion, carrots.  Cover with hot water, just barely covering the highest ingredient.  Add salt and pepper, about 1 tsp of salt, 1/4 tsp of pepper.
 
