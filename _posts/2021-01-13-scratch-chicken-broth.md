@@ -11,7 +11,7 @@ hidden: false
 rating: 5
 ---
 
-The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than toss out the bones, fat, and other waste, I recommend brewing your own chicken stock.  This is perfect to put together as you prepare your primary meal.
+The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than discard the bones, fat, and other perceived waste, I recommend preparing a chicken stock from scratch.  This is perfect to put together as you prepare a different meal since you can toss all of the odd bits from those ingrediants, into your chicken broth stock pot.
 
 ## Ingredients
 
