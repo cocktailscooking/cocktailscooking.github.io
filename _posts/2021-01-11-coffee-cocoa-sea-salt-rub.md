@@ -2,8 +2,8 @@
 layout: post
 title:  "Coffee and Cocoa Sea Salt Rub"
 author: john
-categories: [ recipes, seasonings ]
-tags: [ cooking, salt ]
+categories: [ recipes ]
+tags: [ seasoning, salt ]
 image: assets/images/recipes/coffee.cocoa.sea.salt.rub.jpg
 description: "Elevate your meal with some fresh made Coffee and Cocoa Sea Salt Rub."
 featured: false

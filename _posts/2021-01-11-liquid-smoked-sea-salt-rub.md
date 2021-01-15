@@ -2,8 +2,8 @@
 layout: post
 title:  "Liquid Smoked Sea Salt Rub"
 author: john
-categories: [ recipes, seasonings ]
-tags: [ cooking, salt, smoked ]
+categories: [ recipes ]
+tags: [ seasoning, salt, smoked ]
 image: assets/images/recipes/liquid.smoked.sea.salt.rub.jpg
 description: "Elevate your meal with some fresh made Liquid Smoked Sea Salt Rub."
 featured: false
