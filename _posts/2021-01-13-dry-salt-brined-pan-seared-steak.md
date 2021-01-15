@@ -2,8 +2,8 @@
 layout: post
 title:  "Dry Salt Brined Pan Seared Steak"
 author: john
-categories: [ recipes, brines, steak, pan-seared ]
-tags: [ cooking, salt, brine, stove-top, oven ]
+categories: [ recipes ]
+tags: [ salt, dry-brine, pan-seared, beef ]
 image: assets/images/recipes/dry.salt.brined.pan.seared.steak.jpg
 description: "Enhance your steaks with an overnight dry salt brine rub."
 featured: true

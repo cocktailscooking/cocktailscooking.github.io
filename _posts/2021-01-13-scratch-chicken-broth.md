@@ -2,8 +2,8 @@
 layout: post
 title:  "Scratch Chicken Broth | Leftovers"
 author: john
-categories: [ recipes, broths, meats, scratch ]
-tags: [ cooking, chicken ]
+categories: [ recipes, leftovers ]
+tags: [ chicken, meat, broth ]
 image: assets/images/recipes/scratch.chicken.broth.jpg
 description: "Revision leftovers to add low-effort improvements to your meals with a home made chicken broth | Leftovers Series"
 featured: true

@@ -2,8 +2,8 @@
 layout: post
 title:  "Bacon Sea Salt Rub"
 author: john
-categories: [ recipes, seasonings, pork ]
-tags: [ cooking, bacon, salt ]
+categories: [ recipes ]
+tags: [ seasoning, bacon, salt, pork ]
 image: assets/images/recipes/bacon.sea.salt.rub.jpg
 description: "Elevate your meal with some fresh made Bacon Sea Salt Rub."
 featured: false
