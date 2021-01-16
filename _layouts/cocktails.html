@@ -1,20 +1,20 @@
 ---
-title: "Recipes"
+title: "Cocktails"
 layout: default
-permalink: "/recipes.html"
+permalink: "/cocktails.html"
 ---
 
 <!-- Featured
 ================================================== -->
 <section class="featured-posts">
     <div class="section-title">
-        <h2><span>Featured Recipes</span></h2>
+        <h2><span>Featured Cocktails</span></h2>
     </div>
     <div class="row">
 
     {% for post in site.posts %}
 
-        {% if post.featured == true and post.categories contains 'recipes' %}
+        {% if post.featured == true and post.categories contains 'cocktails' %}
 
             {% include featuredbox.html %}
 
@@ -31,7 +31,7 @@ permalink: "/recipes.html"
 {% for tag in site.tags %}
 {% assign pages_list = tag[1] %}
 {% for post in pages_list %}
-{% if post.categories contains 'recipes' %}
+{% if post.categories contains 'cocktails' %}
 <div class="section-title col-md-12 mt-4">
 <h3 id="{{ tag[0] | replace: " ","-" }}">   <span class="text-capitalize">{{ tag[0] }}</span></h2>
 </div>
