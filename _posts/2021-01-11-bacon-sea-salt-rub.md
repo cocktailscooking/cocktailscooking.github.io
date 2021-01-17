@@ -1,7 +1,8 @@
 ---
-layout: post
+layout: recipe
 title:  "Bacon Sea Salt Rub"
 author: john
+primary_category: recipe
 categories: [ recipes ]
 tags: [ seasoning, bacon, salt, pork ]
 image: assets/images/recipes/bacon.sea.salt.rub.jpg
@@ -9,15 +10,10 @@ description: "Elevate your meal with some fresh made Bacon Sea Salt Rub."
 featured: false
 hidden: false
 rating: 4.5
+ingredients: [ chopped bacon, sea salt rocks or flakes]
+equipments: [ food processor ]
+introduction: Expand the flavor profile of your meat by rolling your own Bacon Salt Rub.  Minimal preperation for delightful gains.
 ---
-
-Expand the flavor profile of your meat by rolling your own Bacon Salt Rub.  Minimal preperation for delightful gains.
-
-## Ingredients
-
-- Chopped bacon
-- Sea Salt Rocks or Flakes
-- Food Processor
 
 ## Cooking Instructions
 
