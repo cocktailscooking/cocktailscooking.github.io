@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: recipe
 title:  "Coffee and Cocoa Sea Salt Rub"
 author: john
 categories: [ recipes ]
@@ -9,15 +9,10 @@ description: "Elevate your meal with some fresh made Coffee and Cocoa Sea Salt R
 featured: false
 hidden: false
 rating: 4.5
+ingredients: [ ground decaf coffee, cocoa powder, sea salt rocks or flakes ]
+equipments: [ mixing bowl, spoon ]
+introduction: Expand the flavor profile of your meat by rolling your own Coffee and Cocoa Salt Rub.  Minimal preperation for delightful gains.
 ---
-
-Expand the flavor profile of your meat by rolling your own Coffee and Cocoa Salt Rub.  Minimal preperation for delightful gains.
-
-## Ingredients
-
-- Ground Coffee (decaf, unless you want the caffine)
-- Cocoa Powder
-- Sea Salt Rocks or Flakes
 
 ## Cooking Instructions
 

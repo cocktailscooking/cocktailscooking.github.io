@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: recipe
 title:  "Compound Garlic Butter"
 author: john
 categories: [ recipes ]
@@ -9,15 +9,10 @@ description: "Revision leftovers to add low-effort improvements to your meals wi
 featured: false
 hidden: false
 rating: 5
+ingredients: [ 'whole garlic cloves', 'unsalted-butter']
+equipments: [ 'chilled bowl sitting in ice bath', sauce pot ]
+introduction: "The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than discard the bones, fat, and other perceived waste, I recommend preparing a chicken stock from scratch.  This is perfect to put together as you prepare a different meal since you can toss all of the odd bits from those ingrediants, into your chicken broth stock pot."
 ---
-
-The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than discard the bones, fat, and other perceived waste, I recommend preparing a chicken stock from scratch.  This is perfect to put together as you prepare a different meal since you can toss all of the odd bits from those ingrediants, into your chicken broth stock pot.
-
-## Ingredients
-
-- Whole Garlic Cloves, Peeled
-- Butter, Unsalted
-- Chilled bowl sitting in an ice bath
 
 ## Cooking Instructions
 

@@ -13,15 +13,7 @@ title: Home
     </div>
     <div class="row">
 
-    {% for post in site.posts %}
-
-        {% if post.featured == true %}
-
-            {% include featuredbox.html %}
-
-        {% endif %}
-
-    {% endfor %}
+        {% include carousel.html height="35" unit="%" duration="7" %}
 
     </div>
 </section>
