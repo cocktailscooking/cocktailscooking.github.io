@@ -1,30 +1,26 @@
 ---
-layout: post
+layout: recipe
 title:  "Scratch Chicken Broth | Leftovers"
 author: john
-categories: [ recipes, leftovers ]
+categories: [ recipes ]
 tags: [ chicken, meat, broth ]
 image: assets/images/recipes/scratch.chicken.broth.jpg
 description: "Revision leftovers to add low-effort improvements to your meals with a home made chicken broth | Leftovers Series"
 featured: true
 hidden: false
 rating: 5
+ingredients: [ left over chicken bones, rosemary sprigs, celery tops/ribs, onion, carrot, crushed garlic, sliced ginger, salt, pepper, water ]
+equipments: [ 'stock pot' ]
+introduction: "The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than discard the bones, fat, and other perceived waste, I recommend preparing a chicken stock from scratch.  This is perfect to put together as you prepare a different meal since you can toss all of the odd bits from those ingrediants, into your chicken broth stock pot."
 ---
 
-The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than discard the bones, fat, and other perceived waste, I recommend preparing a chicken stock from scratch.  This is perfect to put together as you prepare a different meal since you can toss all of the odd bits from those ingrediants, into your chicken broth stock pot.
+## Preperation
 
-## Ingredients
-
-- Leftover bones and skin from a large cooked or rotisserie chickens
-- Rosemary Sprigs
-- Celery tops and celery ribs, cut into 2-inch strips
-- Onion quartered
-- Carrot quartered, cut into 2-inch strips
-- Crushed Garlic
-- Sliced Ginger
-- Salt
-- Pepper
-- Water
+- Use the whole celery, cut off the tops and cut the ribs into 2 inch strips.
+- Quarter the onion, no need to peel.
+- Quarter the carrot and cut into 2 inch strips.  If the carrot has leafy greens, clean and use those too.
+- Coarsely crush the garlic.
+- Slice the ginger into small disks
 
 ## Cooking Instructions
 
