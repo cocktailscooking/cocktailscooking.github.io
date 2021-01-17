@@ -1,3 +1,9 @@
+apparel:
+  id: 'cocktails-cooking'
+  href: 'https://www.bonfire.com/store/'
+  title: 'Bonfire'
+  fa-icon: 'fa fa-tshirt'
+
 email:
   id: 'cocktailsxcooking@gmail.com'
   href: 'mailto:'
