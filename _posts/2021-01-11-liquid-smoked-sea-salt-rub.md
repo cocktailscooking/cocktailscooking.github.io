@@ -6,7 +6,7 @@ categories: [ recipes ]
 tags: [ seasoning, salt, smoked ]
 image: assets/images/recipes/liquid.smoked.sea.salt.rub.jpg
 description: "Elevate your meal with some fresh made Liquid Smoked Sea Salt Rub."
-featured: true
+featured: false
 hidden: false
 rating: 3.5
 ingredients: [ liquid smoke, sea salt rocks or flakes ]
