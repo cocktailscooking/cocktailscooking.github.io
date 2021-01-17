@@ -1,22 +1,18 @@
 ---
-layout: post
+layout: recipe
 title:  "Liquid Smoked Sea Salt Rub"
 author: john
 categories: [ recipes ]
 tags: [ seasoning, salt, smoked ]
 image: assets/images/recipes/liquid.smoked.sea.salt.rub.jpg
 description: "Elevate your meal with some fresh made Liquid Smoked Sea Salt Rub."
-featured: false
+featured: true
 hidden: false
 rating: 3.5
+ingredients: [ liquid smoke, sea salt rocks or flakes ]
+equipments: [ mixing bowl, spoon ]
+introduction: Bring the savory flavor of a smoked barbeque to your kitchen without the need for a physical smoker.
 ---
-
-Bring the savory flavor of a smoked barbeque to your kitchen without the need for a physical smoker.
-
-## Ingredients
-
-- Liquid Smoke
-- Sea Salt Rocks or Flakes
 
 ## Cooking Instructions
 
