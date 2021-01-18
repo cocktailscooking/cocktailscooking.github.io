@@ -1,0 +1,28 @@
+<script class="recipe" type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "Recipe",
+      "name": "{{ page.title }}",
+      "image": [
+      "{{ page.image }}"
+      ],
+      "author": {
+        "@type": "Person",
+        "name": "{{ page.author }}"
+      },
+      "datePublished": "{{ page.date }}",
+      "description": "{{ page.description }}",
+      "recipeCuisine": "{{ page.cuisine }}",
+      "prepTime": "{{ page.prep_time }}",
+      "cookTime": "{{ page.cook_time }}",
+      "totalTime": "{{ page.total_time }}",
+      "keywords": [{% for tag in page.tags %}"{{ tag }}",{% endfor %}],
+      "recipeCategory": "{{ page.tags[0] }}",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "{{ page.rating }}",
+        "ratingCount": "1"
+      },
+      "recipeIngredient": [{% for ingredient in page.ingredients %}"{{ ingredient }}",{% endfor %}]
+    }
+    </script>

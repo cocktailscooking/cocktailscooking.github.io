@@ -13,6 +13,10 @@ rating: 4.5
 ingredients: [ chopped bacon, sea salt rocks or flakes]
 equipments: [ food processor ]
 introduction: Expand the flavor profile of your meat by rolling your own Bacon Salt Rub.  Minimal preperation for delightful gains.
+cuisine: seasoning
+prep_time: PT1M
+cook_time: PT10M
+total_time: PT20M
 ---
 
 ## Cooking Instructions

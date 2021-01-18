@@ -13,6 +13,10 @@ ingredients: [ bourbon, simple syrup, bitters, orange (peel), luxardo cherry, la
 equipments: [ double jigger, mixing spoon, cocktail mixing glass, zester or peeler ]
 suggested_glass: lowball
 introduction: "The Bourbon Old Fashioned is the classic staple that has aged well through the years.  This is the one cocktail that everyone should have in their alchemy notes.  It's a quick, easy, and very tasty way of winding down from the week."
+cuisine: bourbon
+prep_time: PT5M
+cook_time: PT0M
+total_time: PT5M
 ---
 
 ## Mixing Instructions

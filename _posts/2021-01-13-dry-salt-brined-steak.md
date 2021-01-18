@@ -12,6 +12,10 @@ rating: 4.5
 ingredients: [ 'medium sized steak', sea salt rocks or flakes ]
 equipments: [ grated rack, refrigerator ]
 introduction: "Once you try dry salt brining your steaks, you may never want to prepare it any other way.  When we talk about dry brining a steak, we are basically talking about curing it.  Salt helps penetrate the meat over time. The moisture of the meat breaks down the water-soluble elements in the seasoning creating a glaze which eventually seeps back into the meat. The process also breaks down the muscle proteins in the beef, rendering it more tender."
+cuisine: dry-brine
+prep_time: PT24H
+cook_time: PT0M
+total_time: PT24H
 ---
 
 ## Preperation
