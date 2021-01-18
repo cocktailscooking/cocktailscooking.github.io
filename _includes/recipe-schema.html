@@ -16,7 +16,7 @@
       "prepTime": "{{ page.prep_time }}",
       "cookTime": "{{ page.cook_time }}",
       "totalTime": "{{ page.total_time }}",
-      "keywords": [{% for tag in page.tags %}"{{ tag }}",{% endfor %}],
+      "keywords": "{% for tag in page.tags %}{{ tag }},{% endfor %}",
       "recipeCategory": "{{ page.tags[0] }}",
       "aggregateRating": {
         "@type": "AggregateRating",
