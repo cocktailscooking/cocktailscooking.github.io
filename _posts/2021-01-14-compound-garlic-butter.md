@@ -12,6 +12,10 @@ rating: 5
 ingredients: [ 'whole garlic cloves', 'unsalted-butter']
 equipments: [ 'chilled bowl sitting in ice bath', sauce pot ]
 introduction: "The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than discard the bones, fat, and other perceived waste, I recommend preparing a chicken stock from scratch.  This is perfect to put together as you prepare a different meal since you can toss all of the odd bits from those ingrediants, into your chicken broth stock pot."
+cuisine: seasoning
+prep_time: PT1M
+cook_time: PT10M
+total_time: PT20M
 ---
 
 ## Cooking Instructions

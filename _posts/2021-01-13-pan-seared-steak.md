@@ -12,6 +12,10 @@ rating: 4.5
 ingredients: [ seasoned steak, butter, rosemary sprigs, whole crushed garlic, olive oil ]
 equipments: [ large skillet ]
 introduction: "You can never go wrong with a quick pan sear to complete your meal.  Mix it up with some garlic and rosemary sprigs to bring out some amazing flavor."
+cuisine: Steak
+prep_time: PT60M
+cook_time: PT10M
+total_time: PT70M
 ---
 
 ## Cooking Instructions

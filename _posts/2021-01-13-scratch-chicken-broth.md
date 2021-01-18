@@ -12,6 +12,10 @@ rating: 5
 ingredients: [ left over chicken bones, rosemary sprigs, celery tops/ribs, onion, carrot, crushed garlic, sliced ginger, salt, pepper, water ]
 equipments: [ 'stock pot' ]
 introduction: "The best flavors of a chicken come from the pieces most people prefer to toss.  Rather than discard the bones, fat, and other perceived waste, I recommend preparing a chicken stock from scratch.  This is perfect to put together as you prepare a different meal since you can toss all of the odd bits from those ingrediants, into your chicken broth stock pot."
+cuisine: broth
+prep_time: PT25M
+cook_time: PT4H
+total_time: PT5H
 ---
 
 ## Preperation
