@@ -16,13 +16,13 @@
       "prepTime": "{{ page.prep_time }}",
       "cookTime": "{{ page.cook_time }}",
       "totalTime": "{{ page.total_time }}",
-      "keywords": "{% for tag in page.tags %}{{ tag }},{% endfor %}",
+      "keywords": "{{ page.tags | join: ", " }}",
       "recipeCategory": "{{ page.tags[0] }}",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "{{ page.rating }}",
         "ratingCount": "1"
       },
-      "recipeIngredient": [{% for ingredient in page.ingredients %}"{{ ingredient }}",{% endfor %}]
+      "recipeIngredient": [ "{{ page.ingredients | join: '", "'  }}" ]
     }
     </script>
