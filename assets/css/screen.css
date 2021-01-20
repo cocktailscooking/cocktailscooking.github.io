@@ -299,6 +299,7 @@ span.post-read-more a:hover {
 .mediumnavigation .dropdown-menu {
     border: 1px solid rgba(0, 0, 0, 0.08);
     margin: .5rem 0 0;
+    border-top: 0px;
 }
 
 .mediumnavigation .nav-item,

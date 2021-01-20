@@ -66,70 +66,7 @@
     <span class="navbar-toggler-icon"></span>
     </button>
 
-    <div class="collapse navbar-collapse" id="navbarMediumish">
-
-        <!-- Begin Menu -->
-
-            <ul class="navbar-nav ml-auto">
-
-                {% if page.url == "/" %}
-                <li class="nav-item active">
-                {% else %}
-                <li class="nav-item">
-                {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
-                </li>
-
-                <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Cooking
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="{{ site.baseurl }}/recipes">Recipes</a>
-                    </div>
-                  </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Cocktails
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <a class="dropdown-item" href="{{ site.baseurl }}/cocktails">Recipes</a>
-                    </div>
-                  </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Social
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      {% if site.data.social %}
-                      <div id="social">
-                          {% assign sm = site.data.social %}
-                          {% for entry in sm %}
-                              {% assign key = entry | first %}
-                              {% if sm[key].id %}
-                                  <a class="dropdown-item" target="_blank" href="{{ sm[key].href }}{{ sm[key].id }}" title="{{ sm[key].title }}"><i style="margin:0px 10px;" class="{{ sm[key].fa-icon }}"> </i> {{ sm[key].title }}</a>
-                              {% endif %}
-                          {% endfor %}
-                      </div>
-                      {% endif %}
-                      <div class="dropdown-divider"></div>
-                      <a class="dropdown-item" target="_blank" href="https://ko-fi.com/cocktailscooking" class="btn btn-danger">Buy me a coffee</a>
-                    </div>
-                  </li>
-
-                {% include search-lunr.html %}
-
-            </ul>
-
-        <!-- End Menu -->
-
-    </div>
+    {% include nav-menu.html %}
 
     </div>
 </nav>
