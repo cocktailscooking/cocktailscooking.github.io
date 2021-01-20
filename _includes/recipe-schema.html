@@ -13,9 +13,9 @@
       "datePublished": "{{ page.date }}",
       "description": "{{ page.description }}",
       "recipeCuisine": "{{ page.cuisine }}",
-      "prepTime": "{{ page.prep_time }}",
-      "cookTime": "{{ page.cook_time }}",
-      "totalTime": "{{ page.total_time }}",
+      "prepTime": "PT{{ page.prep_time }}",
+      "cookTime": "PT{{ page.cook_time }}",
+      "totalTime": "PT{{ page.total_time }}",
       "keywords": "{{ page.tags | join: ", " }}",
       "recipeCategory": "{{ page.tags[0] }}",
       "aggregateRating": {

@@ -14,9 +14,9 @@ equipments: [ sauce pot, slotted spoon ]
 introduction: "Clarified Butter, aka Ghee, is a staple for a high smoke point butter.  By separting the butter fat from the water and milk fat over a low heat, we can render out the golden nector.  In this recipe, we're going to elevate the clarified butter with whole garlic cloves.  The outcome, will deliver delicious high smoke point substitute with a hint of garlic."
 cuisine: oil
 smoke_point: 482
-prep_time: PT1M
-cook_time: PT10M
-total_time: PT20M
+prep_time: 5M
+cook_time: 10M
+total_time: 20M
 ---
 
 ## Cooking Instructions
