@@ -143,7 +143,7 @@ post_class: post-template
                     </div>
 
 
-                    <div class="col-xs-12 col-md-12 col-lg-8">
+                    <div class="section-title col-xs-12 col-md-12 col-lg-8">
                     <!-- Toc if any -->
                     {% if page.toc %}
                         {% if page.beforetoc %}
@@ -155,14 +155,34 @@ post_class: post-template
                         </div>
                     {% endif %}
                     <!-- End Toc -->
-                    {{content}}
+                    {% if page.instructions %}
+                        <h2 class="card-title">
+                            <span>
+                            Instructions
+                            </span>
+                        </h2>
+                        <ul>
+                        {% for instruction in page.instructions %}
+                            <li>{{ instruction }}</li>
+                        {% endfor %}
+                        </ul>
                     </div>
+                    {% endif %}
                 </div>
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12 mr-0 pr-0">
+                        <div class="section-title col-xs-12 col-md-12 col-lg-12 mb-12 mb-md-0 text-left">
+                            <h2 class="bold card-title">
+                                <span>
+                                Notes
+                                </span>
+                            </h2>
+                    {{content}}
             </div>
 
             <!-- Rating -->
             {% if page.rating %}
-            <div class="rating mb-4 d-flex align-items-center">
+            <div class="rating mt-4 mb-4 d-flex align-items-center">
                 <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
             </div>
             {% endif %}
