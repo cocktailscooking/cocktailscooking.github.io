@@ -1,19 +1,19 @@
 {% assign site_modified = site.date %}
-    {% if site.posts %}
-        {% for post in site.posts %}
-            {% if post.date %}
-                {% assign site_modified = post.date %}
-                {% break %}
-            {% endif %}
-        {% endfor %}
-    {% endif %}
-    {% if site.pages %}
-        {% for page in site.pages %}
-            {% if page.date and page.date > site_modified %}
-                {% assign site_modified = page.date %}
-            {% endif %}
-        {% endfor %}
-    {% endif %}
+{% if site.posts %}
+    {% for post in site.posts %}
+        {% if post.date %}
+            {% assign site_modified = post.date %}
+            {% break %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
+{% if site.pages %}
+    {% for page in site.pages %}
+        {% if page.date and page.date > site_modified %}
+            {% assign site_modified = page.date %}
+        {% endif %}
+    {% endfor %}
+{% endif %}
 
 <script type="application/ld+json">
 {
