@@ -17,14 +17,9 @@ cuisine: seasoning
 prep_time: 1M
 cook_time: 10M
 total_time: 20M
----
-
-## Cooking Instructions
-
+instructions:
 - Cook bacon over medium heat until firmly cooked with a bit of moisture remaining.
-
 - Remove bacon, strain from bacon fat, and pat dry with a paper towel.
-
 - Add one part chopped bacon to two parts salt in a blender and blend until melded together.  Dealers choice.
-
 - Store in container and use as needed.  The salt should help preserve the bacon salt for at least a month.
+---

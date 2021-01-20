@@ -16,27 +16,13 @@ cuisine: seasoning
 prep_time: 1M
 cook_time: 10M
 total_time: 20M
+instructions:
+- Add 1/2 tsp Liquid Smoke to 1 tbsp Sea Salt into a mixing bowl.  The liquid Smoke goes a long way.
+- Mix together until mixture is fully combined.  The Smoked Sea Salt may take on a yellowish color.
+- Store Smoked Sea Salt in a container and use at will.
 ---
 
-## Cooking Instructions
-
-- Add 1/2 tsp Liquid Smoke to 1 tbsp Sea Salt into a mixing bowl.  The liquid Smoke goes a long way.
-
-- Mix together until mixture is fully combined.  The Smoked Sea Salt may take on a yellowish color.
-
-- Store Smoked Sea Salt in a container and use at will.
-
-### Alternative Baking Instructions
-
-- Preheat oven to 175 degrees fahrenheit.
-
-- Cover baking sheet with parchment paper.
-
-- Spread Smoked Sea Salt mixture in a thin layer across the parchment paper.
-
-- Bake in the oven for 45 minutes at 175 degrees fahrenheit.
-
-## Suggested Uses
+### Suggested Uses
 
 - Rub on steaks, roasts, or burgers
 - Sprinkle on ice cream

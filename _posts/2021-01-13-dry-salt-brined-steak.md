@@ -16,27 +16,20 @@ cuisine: dry-brine
 prep_time: 24H
 cook_time: 0M
 total_time: 24H
+instructions:
+- Remove the steaks from the packaging and place onto a large preperation area.
+- Graciously coat the entire steak in the salt rub.  Don't forget to include those meaty sides.
+- Place uncovered steaks on the grated rack and into the refrigerator so that air can circulate around the steak as it cures.  This should help promote a nicely piece of steak infused with salty deliciousness.
+- Let sit for no less than 10 minutes to 1 hour; atleast 24 hours is preferred though, but no more than 4 days.  Adjust the amount of salt initially used according to the brine time.
+- Remove from refriderator about 10 minutes before you want to cook it.  Give it a quick once over with a paper towel, patting it dry.
+- It is now ready to be cooked.
 ---
 
-## Preperation
-
-- Remove the steaks from the packaging and place onto a large preperation area.
-
-- Graciously coat the entire steak in the salt rub.  Don't forget to include those meaty sides.
-
-- Place uncovered steaks on the grated rack and into the refrigerator so that air can circulate around the steak as it cures.  This should help promote a nicely piece of steak infused with salty deliciousness.
-
-- Let sit for no less than 10 minutes to 1 hour; atleast 24 hours is preferred though, but no more than 4 days.  Adjust the amount of salt initially used according to the brine time.
-
-- Remove from refriderator about 10 minutes before you want to cook it.  Give it a quick once over with a paper towel, patting it dry.
-
-- It is now ready to be cooked.
-
-## How It Can Be Cooked
+### How It Can Be Cooked
 
 - [Pan Seared Steak](/pan-seared-steak)
 
-### Elevate it with a Homemade Salt Brine
+### Elevate it with a Homemade Salt
 
 - [Bacon Sea Salt Rub](/bacon-sea-salt-rub)
 - [Coffee and Cocoa Sea Salt Rub](/coffee-cocoa-sea-salt-rub)

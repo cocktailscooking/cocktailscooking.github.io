@@ -17,22 +17,15 @@ cuisine: bourbon
 prep_time: 5M
 cook_time: 0M
 total_time: 5M
+instructions:
+- Pour 2oz of Bourbon into the Cocktail Mixing Glass and add 4-5 drops of the bitters.
+- Add a dab of Simple Syrup and stir.
+- Use the cocktail peeler to peel a neat strip from the orange while holding it over the glass.  As it peels, the oils should express themselves onto the interior of the glass; adding a delicate citrus flavor.
+- Place the large ice cube into the glass and pour Bourbon mix from the mixing glass over the ice. Give the cocktail a stir to chill Bourbon mixture.
+- Twirl peeled orange strip and place on top of the ice cube.
+- Top with luxardo cherry and serve.
 ---
 
-## Mixing Instructions
-
-- Pour 2oz of Bourbon into the Cocktail Mixing Glass and add 4-5 drops of the bitters.
-
-- Add a dab of Simple Syrup and stir.
-
-- Use the cocktail peeler to peel a neat strip from the orange while holding it over the glass.  As it peels, the oils should express themselves onto the interior of the glass; adding a delicate citrus flavor.
-
-- Place the large ice cube into the glass and pour Bourbon mix from the mixing glass over the ice. Give the cocktail a stir to chill Bourbon mixture.
-
-- Twirl peeled orange strip and place on top of the ice cube.
-
-- Top with luxardo cherry and serve.
-
-## Suggested Situations
+### Suggested Situations
 
 - There is no wrong time to responsibility drink this

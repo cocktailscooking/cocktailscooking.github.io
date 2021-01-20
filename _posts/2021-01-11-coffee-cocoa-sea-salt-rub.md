@@ -16,17 +16,13 @@ cuisine: seasoning
 prep_time: 1M
 cook_time: 10M
 total_time: 20M
+instructions:
+  - Add one parts ground coffee and cocoa powder to two parts sea salt, into a mixing bowl.
+  - Mix together until mixture is fully combined.
+  - Store Coffee and Cocoa Sea Salt in a container and use at will.
 ---
 
-## Cooking Instructions
-
-- Add one parts ground coffee and cocoa powder to two parts sea salt, into a mixing bowl.
-
-- Mix together until mixture is fully combined.
-
-- Store Coffee and Cocoa Sea Salt in a container and use at will.
-
-## Recommended Uses
+### Suggested Uses
 
 - Rub on steaks, roasts, or burgers
 - Sprinkle on ice cream

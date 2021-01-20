@@ -16,25 +16,17 @@ cuisine: seasoning
 prep_time: 1M
 cook_time: 10M
 total_time: 20M
+instructions:
+- Add butter and whole garlic cloves to sauce pot and set to low-medium heat
+- Melt butter completely and let simmer for about 15 minutes.  Swirling often.
+- Butter should be cooked through with a smooth texture.  If they have a bit of caramelization, bonus flavor.
+- Remove from heat and pour into the chilled bowl.  Stir garlic butter until it begins to turn into a paste.
+- Remove garlic from the butter and mash garlic until it reaches a thick pastey texture.
+- Add garlic paste to the butter and mix until ingredients are fully incorporated.
+- The garlic butter should now be cool enough to transfer into the storage containers.  Be sure to store them in a temperature-controlled location.
 ---
 
-## Cooking Instructions
-
-- Add butter and whole garlic cloves to sauce pot and set to low-medium heat
-
-- Melt butter completely and let simmer for about 15 minutes.  Swirling often.
-
-- Butter should be cooked through with a smooth texture.  If they have a bit of caramelization, bonus flavor.
-
-- Remove from heat and pour into the chilled bowl.  Stir garlic butter until it begins to turn into a paste.
-
-- Remove garlic from the butter and mash garlic until it reaches a thick pastey texture.
-
-- Add garlic paste to the butter and mix until ingredients are fully incorporated.
-
-- The garlic butter should now be cool enough to transfer into the storage containers.  Be sure to store them in a temperature-controlled location.
-
-## Suggested Uses
+### Suggested Uses
 
 - Garlic bread
 - Anywhere Garlic or butter is required. (everywhere)

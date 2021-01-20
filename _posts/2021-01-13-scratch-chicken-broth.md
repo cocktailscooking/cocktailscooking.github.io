@@ -16,29 +16,21 @@ cuisine: broth
 prep_time: 25M
 cook_time: 4H
 total_time: 5H
----
-
-## Preperation
-
+preparation:
 - Use the whole celery, cut off the tops and cut the ribs into 2 inch strips.
 - Quarter the onion, no need to peel.
 - Quarter the carrot and cut into 2 inch strips.  If the carrot has leafy greens, clean and use those too.
 - Coarsely crush the garlic.
 - Slice the ginger into small disks
-
-## Cooking Instructions
-
+instructions:
 - Heat stock pot on low-medium heat.  Add butter and melt.  Next, add crushed garlic and rosemary sprigs.  As the herbs begin to release their delightful aroma, add the ginger slices.  Finally, saute until garlic has cooked through and is a bit smooth, sitrring more than occasionally.  If they have a bit of caramelization, neat.
-
 - Put the leftover bones and skin from a chicken carcass into the large stock pot with garlic and rosemary butter. Add vegetables, celery, onion, carrots.  Cover with hot water, just barely covering the highest ingredient.  Add salt and pepper, about 1 tsp of salt, 1/4 tsp of pepper.
-
 - Bring to a boil and immediately reduce heat to bring the stock to barely a simmer.  Simmer partially covered at least 4 hours, occasionally skimming off any foam that comes to the surface.  (I like to simmer the stock overnight for maximum flavor concentration)
-
 - Remove the bones and vegetables with a slotted spoon or spider ladle, and strain the stock through a fine mesh sieve.
-
 - Rapidly cool the stock, move into storage containers, and place into the fridge.
+---
 
-## Food Safety
+### Food Safety
 
 > Leaving food out too long at room temperature can cause bacteria to grow to dangerous levels that can cause illness. Bacteria grow most rapidly in the range of temperatures between 40 °F and 140 °F, doubling in number in as little as 20 minutes. This range of temperatures is often called the "Danger Zone."
 
