@@ -16,7 +16,7 @@ cuisine: broth
 prep_time: 25M
 cook_time: 4H
 total_time: 5H
-preparation:
+preparations:
 - Use the whole celery, cut off the tops and cut the ribs into 2 inch strips.
 - Quarter the onion, no need to peel.
 - Quarter the carrot and cut into 2 inch strips.  If the carrot has leafy greens, clean and use those too.

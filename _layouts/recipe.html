@@ -155,6 +155,18 @@ post_class: post-template
                         </div>
                     {% endif %}
                     <!-- End Toc -->
+                    {% if page.preparations %}
+                        <h2 class="card-title">
+                            <span>
+                            Preparations
+                            </span>
+                        </h2>
+                        <ul>
+                        {% for preparation in page.preparations %}
+                            <li>{{ preparation }}</li>
+                        {% endfor %}
+                        </ul>
+                    {% endif %}
                     {% if page.instructions %}
                         <h2 class="card-title">
                             <span>
@@ -166,8 +178,8 @@ post_class: post-template
                             <li>{{ instruction }}</li>
                         {% endfor %}
                         </ul>
-                    </div>
                     {% endif %}
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-12 col-lg-12 mr-0 pr-0">
@@ -177,7 +189,10 @@ post_class: post-template
                                 Notes
                                 </span>
                             </h2>
-                    {{content}}
+                            {{content}}
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <!-- Rating -->
