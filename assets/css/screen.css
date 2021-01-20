@@ -898,3 +898,17 @@ iframe {
     opacity: 0;
     transition: opacity .25s;
 }
+
+.border-top-dotted {
+    padding-top: 10px;
+    border-top-style: dotted;
+}
+
+.border-bottom-dotted {
+    padding-bottom: 10px;
+    border-bottom-style: dotted;
+}
+
+.border-right {
+    padding-right: 10px;
+}

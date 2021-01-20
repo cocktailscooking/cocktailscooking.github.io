@@ -76,6 +76,27 @@ post_class: post-template
 
             <!-- Cocktail meta -->
             <div class="article-post">
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-12 mb-12 mb-md-0">
+                        <ul class="text-center border-top-dotted border-bottom-dotted list-inline">
+                            <li class="border-right list-inline-item">
+                                <strong>Cuisine:</strong> {{ page.cuisine | capitalize }}
+                            </li>
+                            <li class="border-right list-inline-item">
+                                <strong>Smoke Point:</strong> {{ page.smoke_point }}
+                            </li>
+                            <li class="border-right list-inline-item">
+                                <strong>Prep Time:</strong> {{ page.prep_time }}
+                            </li>
+                            <li class="border-right list-inline-item">
+                                <strong>Cook Time:</strong> {{ page.cook_time | convert: "number" }}
+                            </li>
+                            <li class="list-inline-item">
+                                <strong>Total Time:</strong> {{ page.total_time }}
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
                 <div class="row">
                     <div class="col-xs-12 col-md-4 col-lg-4 mb-4 mb-md-0">
@@ -98,14 +119,6 @@ post_class: post-template
                         {% endfor %}
                         </ul>
                     </div>
-                    {% if page.suggested_glass %}
-                    <div class="col-xs-12 col-md-4 col-lg-4 text-center mb-4 mb-md-0">
-                        <h2 class="card-title">
-                            Glass
-                        </h2>
-                        <img class="col-lg-8" src="{{site.baseurl}}/assets/images/cocktails/glasses/{{ page.suggested_glass }}.png" alt="{{ page.suggested_glass }}">
-                    </div>
-                    {% endif %}
                 </div>
 
             </div>
