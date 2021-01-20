@@ -39,7 +39,11 @@ post_class: post-template
                 {% endif %}
 
                 <!-- Post Title -->
-                <h1 class="posttitle">{{ page.title }}</h1>
+                <div class="section-title">
+                <h1>
+                    <span>{{ page.title }}</span>
+                </h1>
+                </div>
 
             </div>
 
@@ -82,9 +86,11 @@ post_class: post-template
                             <li class="border-right list-inline-item">
                                 <strong>Cuisine:</strong> {{ page.cuisine | capitalize }}
                             </li>
+                            {% if page.smoke_point %}
                             <li class="border-right list-inline-item">
                                 <strong>Smoke Point:</strong> {{ page.smoke_point }}
                             </li>
+                            {% endif %}
                             <li class="border-right list-inline-item">
                                 <strong>Prep Time:</strong> {{ page.prep_time }}
                             </li>
@@ -97,46 +103,61 @@ post_class: post-template
                         </ul>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-xs-12 col-md-4 col-lg-4 mb-4 mb-md-0">
-                        <h2 class="bold card-title">
-                            Ingredients
-                        </h2>
-                        <ul>
-                        {% for ingredient in page.ingredients %}
-                            <li>{{ ingredient | capitalize }}</li>
-                        {% endfor %}
-                        </ul>
-                    </div>
-                    <div class="col-xs-12 col-md-4 col-lg-4 mb-4 mb-md-0">
-                        <h2 class="card-title">
-                            Equipment
-                        </h2>
-                        <ul>
-                        {% for equipment in page.equipments %}
-                            <li>{{ equipment | capitalize }}</li>
-                        {% endfor %}
-                        </ul>
-                    </div>
-                </div>
-
             </div>
 
-            <!-- Post Content -->
             <div class="article-post">
-                <!-- Toc if any -->
-                {% if page.toc %}
-                    {% if page.beforetoc %}
-                        <p><em>{{page.beforetoc}}</em></p>
-                    {% endif %}
-                    <div class="toc mt-4 mb-4 lead">
-                        <h3 class="font-weight-bold">Summary</h3>
-                        {% include toc.html html=content %}
+                <div class="row">
+                    <div class="col-xs-12 col-md-12 col-lg-4 mr-0 pr-0">
+                        <div class="section-title col-xs-12 col-md-12 col-lg-12 mb-12 mb-md-0 text-left">
+                            <h2 class="bold card-title">
+                                <span>
+                                Ingredients
+                                </span>
+                            </h2>
+                            <ul class="border-right">
+                            {% for ingredient in page.ingredients %}
+                                <li>{{ ingredient | capitalize }}</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="section-title col-xs-12 col-md-12 col-lg-12 mb-4 mb-md-0">
+                            <h2 class="card-title">
+                                <span>
+                                Equipment
+                                </span>
+                            </h2>
+                            <ul class="border-right">
+                            {% for equipment in page.equipments %}
+                                <li>{{ equipment | capitalize }}</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                        {% if page.suggested_glass %}
+                        <div class="section-title col-xs-12 col-md-12 col-lg-12 mb-4 mb-md-0">
+                            <h2 class="card-title">
+                                <span>Glassware</span>
+                            </h2>
+                            <img class="col-xs-12 col-md-12 col-lg-12 border-right" src="{{site.baseurl}}/assets/images/cocktails/glasses/{{ page.suggested_glass }}.png" alt="{{ page.suggested_glass }}">
+                        </div>
+                        {% endif %}
                     </div>
-                {% endif %}
-                <!-- End Toc -->
-                {{content}}
+
+
+                    <div class="col-xs-12 col-md-12 col-lg-8">
+                    <!-- Toc if any -->
+                    {% if page.toc %}
+                        {% if page.beforetoc %}
+                            <p><em>{{page.beforetoc}}</em></p>
+                        {% endif %}
+                        <div class="toc mt-4 mb-4 lead">
+                            <h3 class="font-weight-bold">Summary</h3>
+                            {% include toc.html html=content %}
+                        </div>
+                    {% endif %}
+                    <!-- End Toc -->
+                    {{content}}
+                    </div>
+                </div>
             </div>
 
             <!-- Rating -->
