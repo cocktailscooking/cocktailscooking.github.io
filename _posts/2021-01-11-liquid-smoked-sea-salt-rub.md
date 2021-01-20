@@ -13,9 +13,9 @@ ingredients: [ liquid smoke, sea salt rocks or flakes ]
 equipments: [ mixing bowl, spoon ]
 introduction: Bring the savory flavor of a smoked barbeque to your kitchen without the need for a physical smoker.
 cuisine: seasoning
-prep_time: PT1M
-cook_time: PT10M
-total_time: PT20M
+prep_time: 1M
+cook_time: 10M
+total_time: 20M
 ---
 
 ## Cooking Instructions
