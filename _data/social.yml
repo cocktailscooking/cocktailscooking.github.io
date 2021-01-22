@@ -1,7 +1,7 @@
 apparel:
-  id: 'cocktails-cooking'
-  href: 'https://www.bonfire.com/store/'
-  title: 'Bonfire'
+  id: 'cocktails.cooking'
+  href: 'https://store.'
+  title: 'Apparel'
   fa-icon: 'fa fa-tshirt'
 
 email:
@@ -31,5 +31,5 @@ github:
 instagram:
   id: 'cocktailsxcooking'
   href: 'https://instagram.com/'
-  title: 'GitHub'
+  title: 'Instagram'
   fa-icon: 'fab fa-instagram'
