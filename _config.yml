@@ -1,9 +1,12 @@
 # Site
-name: "Cocktails &centerdot; Cooking"
-title: "Cocktails &centerdot; Cooking"
+name: "Cocktails · Cooking"
+title: "Cocktails · Cooking"
+title_wildly_font: "Cocktails"
+title_autography_font: "Cooking"
 description: "Exploring flavors to transcend your kitchen."
-logo: 'assets/images/logo.png'
-favicon: 'assets/images/logo.png'
+logo: 'assets/images/logo-short.png'
+logo-text: 'assets/images/logo-text.png'
+favicon: 'assets/images/logo-thumb.png'
 baseurl: ''
 google_analytics: 'G-55MC2Q66RL'
 disqus: 'cocktailscooking'

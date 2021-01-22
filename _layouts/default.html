@@ -80,10 +80,13 @@
 <!-- Site Title
 ================================================== -->
 <div class="mainheading">
-    <h1 class="sitetitle">{{ site.name }}</h1>
-    <p class="lead">
-        {{ site.description }}
-    </p>
+    <h1 class="sitetitle">
+        <span class="wildly">{{ site.title_wildly_font }}</span>
+        <span> · </span>
+        <span class="autography">{{ site.title_autography_font }}</span>
+        <span>
+    </h1>
+        <h3 class="lead"><span class="autography">{{ site.description }}</span></h3>
 </div>
 
 <!-- Content
