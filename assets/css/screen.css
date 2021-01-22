@@ -315,12 +315,28 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
+    max-height: 50px;
+    margin-top: -41px;
+    margin-bottom: -40px;
     margin-right: 5px;
 }
 
 .mainheading h1.sitetitle {
-    font-family: Righteous;
+    font-family: "Autography";
+    font-size: 4.2rem;
+}
+
+.mainheading h3.lead {
+    font-family: "Autography";
+    font-size: 2.4rem;
+}
+
+.wildly {
+    font-family: "Wildly-Sans";
+}
+
+.autography {
+    font-family: "Autography";
 }
 
 .mainheading h1.posttitle {
