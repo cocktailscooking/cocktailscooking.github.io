@@ -18,7 +18,7 @@ post_class: post-template
         <!-- Post -->
         {% assign author = site.authors[page.author] %}
 
-        <div class="col-md-9 flex-first flex-md-unordered">
+        <div class="h-recipe col-md-9 flex-first flex-md-unordered">
             <div class="mainheading">
 
                 <!-- Author Box -->
@@ -32,7 +32,7 @@ post_class: post-template
                         {% endif %}
                     </div>
                     <div class="col-xs-12 col-md-9 col-lg-10 text-center text-md-left">
-                        <a target="_blank" class="link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
+                        <a target="_blank" class="p-author author link-dark" href="{{ author.web }}">{{ author.display_name }}</a><a target="_blank" href="{{ author.twitter }}" class="btn follow">Follow</a>
                         <span class="author-description">{{ author.description }}</span>
                     </div>
                 </div>
@@ -40,8 +40,8 @@ post_class: post-template
 
                 <!-- Post Title -->
                 <div class="section-title">
-                <h1>
-                    <span>{{ page.title }}</span>
+                <h1 class="p-name">
+                    {{ page.title }}
                 </h1>
                 </div>
 
@@ -57,9 +57,9 @@ post_class: post-template
             {% if page.image %}
 
             {% if site.lazyimages == "enabled" %}
-            <img class="featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+            <img class="u-photo featured-image img-fluid lazyimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAACCAQAAAA3fa6RAAAADklEQVR42mNkAANGCAUAACMAA2w/AMgAAAAASUVORK5CYII=" data-src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% else %}
-            <img class="featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
+            <img class="u-photo featured-image img-fluid" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ site.baseurl }}/{{ page.image }}{% endif %}" alt="{{ page.title }}">
             {% endif %}
 
             {% endif %}
@@ -70,7 +70,7 @@ post_class: post-template
             <div class="article-post">
                 <!-- Toc if any -->
                 <div class="row">
-                    <div class="card-body">
+                    <div class="card-body p-summary">
                         {{ page.introduction }}
                     </div>
                 </div>
@@ -92,13 +92,13 @@ post_class: post-template
                             </li>
                             {% endif %}
                             <li class="border-right list-inline-item">
-                                <strong>Prep Time:</strong> {{ page.prep_time }}
+                                <strong>Prep Time:</strong> <span class="dt-preptime">{{ page.prep_time }}</span>
                             </li>
                             <li class="border-right list-inline-item">
-                                <strong>Cook Time:</strong> {{ page.cook_time | convert: "number" }}
+                                <strong>Cook Time:</strong> <span class="dt-cooktime">{{ page.cook_time | convert: "number" }}</span>
                             </li>
                             <li class="list-inline-item">
-                                <strong>Total Time:</strong> {{ page.total_time }}
+                                <strong>Total Time:</strong> <span class="dt-duration">{{ page.total_time | convert: "number" }}</span>
                             </li>
                         </ul>
                     </div>
@@ -116,7 +116,7 @@ post_class: post-template
                             </h2>
                             <ul class="border-right">
                             {% for ingredient in page.ingredients %}
-                                <li>{{ ingredient | capitalize }}</li>
+                                <li class="p-ingredient">{{ ingredient | capitalize }}</li>
                             {% endfor %}
                             </ul>
                         </div>
@@ -173,11 +173,13 @@ post_class: post-template
                             Instructions
                             </span>
                         </h2>
-                        <ul>
-                        {% for instruction in page.instructions %}
-                            <li>{{ instruction }}</li>
-                        {% endfor %}
-                        </ul>
+                        <div class="e-instructions">
+                            <ul>
+                            {% for instruction in page.instructions %}
+                                <li>{{ instruction }}</li>
+                            {% endfor %}
+                            </ul>
+                        </div>
                     {% endif %}
                     </div>
                 </div>
@@ -197,7 +199,7 @@ post_class: post-template
 
             <!-- Rating -->
             {% if page.rating %}
-            <div class="rating mt-4 mb-4 d-flex align-items-center">
+            <div class="rating review hreview-aggregate mt-4 mb-4 d-flex align-items-center">
                 <strong class="mr-1">Rating:</strong> {% include star_rating.html %}
             </div>
             {% endif %}

@@ -10,6 +10,7 @@ favicon: 'assets/images/logo-thumb.png'
 baseurl: ''
 google_analytics: 'G-55MC2Q66RL'
 google_tag_manager: 'GTM-P24LMMR'
+clarity: '53k824bqu1'
 disqus: 'cocktailscooking'
 mailchimp-list: 'https://cooking.us7.list-manage.com/subscribe/post?u=94addc7fac4b8f7524a196526&amp;id=9d5f1ca6dd'
 include: ["_pages"]
