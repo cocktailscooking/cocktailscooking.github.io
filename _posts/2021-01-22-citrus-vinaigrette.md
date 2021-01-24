@@ -4,7 +4,7 @@ title:  "Citrus Vinaigrette"
 author: john
 categories: [ recipes ]
 tags: [ citrus, vinaigrette, dressing, salad, vegetarian ]
-image: assets/images/recipes/vector.citrus.vinaigrette.svg
+image: assets/images/recipes/citrus.vinaigrette.png
 description: "Make a quick and fresh citrus vinaigrette with just a few ingredients."
 featured: true
 hidden: false
