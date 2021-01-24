@@ -6,7 +6,7 @@ title_autography_font: "Cooking"
 description: "Exploring flavors to transcend your kitchen."
 logo: 'assets/images/logo-short.png'
 logo-text: 'assets/images/logo-text.png'
-favicon: 'assets/images/logo-thumb.png'
+favicon: 'favicon.ico'
 baseurl: ''
 google_analytics: 'G-55MC2Q66RL'
 google_tag_manager: 'GTM-P24LMMR'
