@@ -116,7 +116,9 @@ post_class: post-template
                             </h2>
                             <ul class="border-right">
                             {% for ingredient in page.ingredients %}
-                                <li class="p-ingredient">{{ ingredient | capitalize }}</li>
+                                <li class="p-ingredient">
+                                    {{ ingredient | capitalize }}
+                                </li>
                             {% endfor %}
                             </ul>
                             <div class="card-body" id="BIYZ-MEMM-QUNI-BNBO">
@@ -127,6 +129,21 @@ post_class: post-template
                                 </script>
                             </div>
                         </div>
+                        {% if page.prerequisites %}
+                        <div class="section-title col-xs-12 col-md-12 col-lg-12 mb-4 mb-md-0">
+                            <h2 class="card-title">
+                                <span>
+                                    Prerequisites
+                                </span>
+                            </h2>
+                            <ul class="border-right">
+                            {% for prerequisite in page.prerequisites %}
+                                <li><a href="{{ site.baseurl }}/{{ prerequisite }}">{{ prerequisite | replace: "-", " " | capitalize }}</a></li>
+                            {% endfor %}
+                            </ul>
+                        </div>
+                        {% endif %}
+                        {% if page.equipments %}
                         <div class="section-title col-xs-12 col-md-12 col-lg-12 mb-4 mb-md-0">
                             <h2 class="card-title">
                                 <span>
@@ -139,6 +156,7 @@ post_class: post-template
                             {% endfor %}
                             </ul>
                         </div>
+                        {% endif %}
                         {% if page.suggested_glass %}
                         <div class="section-title col-xs-12 col-md-12 col-lg-12 mb-4 mb-md-0">
                             <h2 class="card-title">
