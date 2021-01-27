@@ -6,7 +6,7 @@ categories: [ recipes ]
 tags: [ chicken, meat, broth ]
 image: assets/images/recipes/scratch.chicken.broth.jpg
 description: "Revision leftovers to add low-effort improvements to your meals with a home made chicken broth | Leftovers Series"
-featured: true
+featured: false
 hidden: false
 rating: 5
 ingredients: [ left over chicken bones, rosemary sprigs, celery tops/ribs, onion, carrot, crushed garlic, sliced ginger, salt, pepper, water ]
