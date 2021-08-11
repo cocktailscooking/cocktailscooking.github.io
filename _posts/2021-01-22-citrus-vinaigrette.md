@@ -6,7 +6,7 @@ categories: [ recipes ]
 tags: [ citrus, vinaigrette, dressing, salad, vegetarian ]
 image: assets/images/recipes/citrus.vinaigrette.png
 description: "Make a quick and fresh citrus vinaigrette with just a few ingredients."
-featured: true
+featured: false
 hidden: false
 rating: 4
 ingredients: [ finely chopped shallot, olive oil, white wine or champagne vinegar, fresh lemon juice, fresh orange juice, finely grated lemon zest, kosher salt, coarse pepper ]
